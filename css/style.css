@@ -1,0 +1,224 @@
+body{
+    background-color: lightgray;
+}
+.navigation{
+    position: fixed;  
+    background-color: white;
+    width: 100%;
+}
+.bar{
+    display: inline-block;
+    vertical-align: middle;
+}
+.active{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Abril Fatface', serif;
+}
+:hover .active{
+    animation-duration: 1s darkred;
+    
+}
+.passive{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Abril Fatface', serif;
+}
+.logo{
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    margin-left: 170px;
+    vertical-align: middle;
+}
+.container{
+    margin: auto 180px;
+}
+.div1{
+    display: inline-block;
+}
+h4{
+    font-size: 80px;
+    margin-top: 50px;
+    font-family: 'Abril Fatface', serif;
+}
+.sale{
+    width: 350px;
+    height: 550px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+.banner{
+    width: 100%;
+    height: 70%;
+}
+h3{
+    margin: 10px 15px;
+}   
+h6{
+    font-size: 25px;
+    margin: 15px 90px;
+    font-family: 'Abril Fatface', serif;
+
+}
+.sale1{
+    width: 350px;
+    height: 550px;
+    background-color: cornflowerblue;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+h5{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration:underline;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.t1{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration:underline;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.t2{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration:underline;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.t3{
+    font-size: 50px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration:underline;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.sec1{
+    background-color: #f5f5e5;
+    width: 100%;
+    height: 450px;
+}
+.storydiv{
+    display: inline-block;
+    width: 45%;
+    vertical-align:top;
+}
+
+h2{
+    margin-left: 90px;
+    font-size: 60px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+h1{ 
+    margin-top: 140px;
+    font-size: 35px;
+    font-weight: 200;
+    
+    margin-bottom: 20px;
+}
+.txt{
+    font-size: 15px;
+}
+.txt1{
+    font-size: 25px;
+    color:crimson;
+    display: inline-block; 
+    font-family: 'Bebas Neue', sans-serif;    fo
+}
+.childdiv1{
+    width: 180px;
+    height: 220px;
+    background-color: grey;
+    display: inline-block;
+    vertical-align: middle;
+}
+.shoes{
+    width: 100%;
+    height: 70%;
+}
+p{
+    font-size: 20px;
+    margin: 20px 25px;
+}
+.childdiv2{
+    width: 180px;
+    height: 220px;
+    background-color: gray ;
+    display: inline-block;
+    margin-left: 120px;
+    vertical-align: middle;
+}
+.childdiv3{
+    width: 180px;
+    height: 220px;
+    background-color: gray ;
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+.childdiv4{
+    width: 180px;
+    height: 220px;
+    background-color: gray ;
+    display: inline-block;
+    margin-left: 120px;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+.superstar{
+    font-size: 18px;
+    margin: 20px 25px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: greenyellow;
+}
+.footer1{
+    height: 200px;
+    width: 100%;
+    background-color: greenyellow;
+    margin-top: 70px;
+}
+.footerlogo{
+    margin-top: 80px;
+    margin-left: 100px;
+    width: 75px;
+    height: 50px;
+}
+.ft{
+    display: inline-block;
+}
+.abt{
+    color: black;
+    font-size: 25px;
+    margin: 15px 120px;
+    font-family: 'Abril Fatface', serif;
+
+}
+.contactcomp{
+    display: inline-block;
+    vertical-align: middle;
+}
+.map{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+}
+.addres1{
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-family: 'Abril Fatface', serif;
+
+}
