@@ -15,14 +15,16 @@ body{
     font-weight: 400;
     font-family: 'Abril Fatface', serif;
 }
-:hover .active{
-    animation-duration: 1s darkred;
-    
+.active:hover{
+    color: red;
 }
 .passive{
     font-size: 30px;
     font-weight: 400;
     font-family: 'Abril Fatface', serif;
+}
+.passive:hover{
+    color: red;
 }
 .logo{
     display: inline-block;
@@ -30,7 +32,7 @@ body{
     height: 50px;
     margin-left: 170px;
     vertical-align: middle;
-}
+}    
 .container{
     margin: auto 180px;
 }
@@ -49,6 +51,10 @@ h4{
     display: inline-block;
     margin-top: 30px;
     vertical-align: middle;
+    transition: height 1s ease-out;
+}
+.sale:hover{
+    height: 600px;
 }
 .banner{
     width: 100%;
@@ -61,7 +67,14 @@ h6{
     font-size: 25px;
     margin: 15px 90px;
     font-family: 'Abril Fatface', serif;
-
+}
+.shop{
+    font-size: 25px;
+    font-family: 'Abril Fatface', serif;
+    transition: heigth 5s ease-out;
+}
+.shop:hover{
+    font-size: 32px;
 }
 .sale1{
     width: 350px;
@@ -71,6 +84,10 @@ h6{
     margin-top: 30px;
     margin-left: 50px;
     vertical-align: middle;
+    transition: height 1s ease-out;
+}
+.sale1:hover{
+    height: 600px;
 }
 h5{
     font-size: 50px;
@@ -134,7 +151,7 @@ h1{
     font-size: 25px;
     color:crimson;
     display: inline-block; 
-    font-family: 'Bebas Neue', sans-serif;    fo
+    font-family: 'Bebas Neue', sans-serif;    
 }
 .childdiv1{
     width: 180px;
@@ -142,6 +159,7 @@ h1{
     background-color: grey;
     display: inline-block;
     vertical-align: middle;
+    transition: height 2s ease-out;
 }
 .shoes{
     width: 100%;
@@ -158,6 +176,7 @@ p{
     display: inline-block;
     margin-left: 120px;
     vertical-align: middle;
+    transition: height 2s ease-out;
 }
 .childdiv3{
     width: 180px;
@@ -166,6 +185,7 @@ p{
     display: inline-block;
     margin-top: 20px;
     vertical-align: middle;
+    transition: height 2s ease-out;
 }
 .childdiv4{
     width: 180px;
@@ -174,8 +194,23 @@ p{
     display: inline-block;
     margin-left: 120px;
     margin-top: 20px;
-    vertical-align: middle;
+    vertical-align: middle;    
+    transition: height 2s ease-out;
+
 }
+.childdiv3:hover{
+    background-color:aquamarine;
+    height: 300px;
+}.childdiv4:hover{
+    background-color: aquamarine;
+    height: 300px;
+} .childdiv1:hover{
+    background-color: aquamarine;
+    height: 300px;
+} .childdiv2:hover{
+    background-color: aquamarine;
+    height: 300px;
+} 
 .superstar{
     font-size: 18px;
     margin: 20px 25px;
@@ -184,6 +219,7 @@ footer{
     height: 200px;
     width: 100%;
     background-color: greenyellow;
+
 }
 .footer1{
     height: 200px;
@@ -195,7 +231,7 @@ footer{
     margin-top: 80px;
     margin-left: 100px;
     width: 75px;
-    height: 50px;
+    height: 50px;    
 }
 .ft{
     display: inline-block;
@@ -205,12 +241,17 @@ footer{
     font-size: 25px;
     margin: 15px 120px;
     font-family: 'Abril Fatface', serif;
-
+    transition: height 5s ease-out;
+}
+.abt:hover{
+    font-size: 30px;
+    color: purple;
 }
 .contactcomp{
     display: inline-block;
     vertical-align: middle;
 }
+
 .map{
     display: inline-block;
     vertical-align: middle;
@@ -220,5 +261,5 @@ footer{
     font-size: 14px;
     margin-bottom: 15px;
     font-family: 'Abril Fatface', serif;
-
 }
+
